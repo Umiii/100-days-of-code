@@ -1,0 +1,26 @@
+{
+  "name": "100-days-of-code",
+  "version": "1.0.0",
+  "description": "100 days challenge to improve test automation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Umiii/100-days-of-code.git"
+  },
+  "keywords": [
+    "test-automation",
+    "cypress"
+  ],
+  "author": "Umi Ikem",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Umiii/100-days-of-code/issues"
+  },
+  "homepage": "https://github.com/Umiii/100-days-of-code#readme",
+  "devDependencies": {
+    "cypress": "^7.1.0"
+  }
+}
