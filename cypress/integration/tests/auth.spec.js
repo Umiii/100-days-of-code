@@ -1,6 +1,6 @@
 /// <reference types="Cypress" />
 
-describe('Auth Tests', () => {
+describe('Authentication Tests', () => {
     beforeEach(() => {
         cy.visit('https://www.saucedemo.com/')
       })
@@ -22,7 +22,7 @@ describe('Auth Tests', () => {
     })
 
 
-    it('Login with valid username & password', () => {
+    it('Successful Login with valid username & password', () => {
         cy.get('#user-name', { timeout: 5000 })
         .type('standard_user')
         cy.get('#password').type('secret_sauce')
