@@ -22,4 +22,10 @@ Penned down test case scenarios for add to cart
 
 Thoughts: Cypress has some reasonable bugs that are still open on Github, the Webpack error was a major headacheclea
 
+### Day 1: April 20th, 2021
+
+Completed the first add to cart test case
+
+Thoughts: It took some time to get around what i wanted to do in jquery, it was a breeze after that
+
 ### R1D2
