@@ -26,6 +26,6 @@ Thoughts: Cypress has some reasonable bugs that are still open on Github, the We
 
 Completed the first add to cart test case
 
-Thoughts: It took some time to get around what i wanted to do in jquery, it was a breeze after that
+Thoughts: It took some time to get around what I wanted to do in jquery, it was a breeze after that
 
 ### R1D2
