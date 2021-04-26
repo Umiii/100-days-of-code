@@ -38,14 +38,10 @@ describe('Add to Cart Scenarios', () => {
     })
 
     it('Add 3 random items to cart from homepage & logout', () => {
-        cy.get('.inventory_list').each(($el, $index, $list) => {
-
-            let random_element = $el.find('.inventory_item').get(3)
-            Cypress.$(random_element).find('.inventory_item_descriptiossn > .pricebar #add-to-cart-sauce-labs-bolt-t-shirt').trigger('click')
-            
-            
+        const $el = Cypress.$('.inventory_list')
+        console.log($el.get(4))
         
-        })
+        
     })
     
 }) 
