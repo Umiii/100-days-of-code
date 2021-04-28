@@ -44,4 +44,12 @@ Still on the random test case
 
 Thoughts: Trying to figure it out
 
+### Day 6: April 27th, 2021
+Random Test Case problem resolved and test case completed
+Created new test cases
+
+Thoughts: I was overthinking the random problem and how to select the element randomly from the list. The solution has been staring me in the face all this time. smh
+
+
+### Day 7: April 28th, 2021
 ### R1D2
