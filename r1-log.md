@@ -53,7 +53,10 @@ Thoughts: I was overthinking the random problem and how to select the element ra
 ### Day 7: April 28th, 2021
 Completed Add to Cart scenarios
 Created new test cases
+Started working on validation of links
 
-Thoughts:
+Thoughts: Today went smooth.
+
+### Day 8: April 28th, 2021
 
 ### R1D2

@@ -19,8 +19,6 @@ describe('Add to Cart Scenarios', () => {
         })
         cy.contains('Add to cart').click()
         cy.get('span.shopping_cart_badge').should('have.text', '1')
-        cy.get('#react-burger-menu-btn').click()
-        cy.get('#logout_sidebar_link').click()
 
     })
 
@@ -33,8 +31,7 @@ describe('Add to Cart Scenarios', () => {
         })
         cy.get('[data-test=add-to-cart-sauce-labs-backpack]').click()
         cy.get('span.shopping_cart_badge').should('have.text', '1')
-        cy.get('#react-burger-menu-btn').click()
-        cy.get('#logout_sidebar_link', { timeout: 5000 }).click()
+        
     })
 
     it('Add 3 random items to cart from homepage', () => {
@@ -66,5 +63,6 @@ describe('Add to Cart Scenarios', () => {
         cy.get('.shopping_cart_link').click()
         cy.url().should('eq', 'https://www.saucedemo.com/cart.html')
     })
+
 
 }) 
