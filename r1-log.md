@@ -59,4 +59,5 @@ Thoughts: Today went smooth.
 
 ### Day 8: April 28th, 2021
 
+
 ### R1D2
