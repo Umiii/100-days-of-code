@@ -57,7 +57,10 @@ Started working on validation of links
 
 Thoughts: Today went smooth.
 
-### Day 8: April 28th, 2021
+### Day 8: April 29th, 2021
+I completed the link validation test cases, its just 1 left
 
+Thoughts: Cypress assertions are so straightforward 
 
+### Day 9: April 30th, 2021
 ### R1D2

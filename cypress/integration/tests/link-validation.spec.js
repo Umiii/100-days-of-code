@@ -26,6 +26,9 @@ describe('Link validation tests', () => {
     })
 
     it('Validate that close button in sidebar menu works', () => {
-        
+        cy.get('#react-burger-menu-btn').click()
+        cy.get('.bm-menu-wrap').should('not.have.attr', 'hidden')
+        cy.get('#react-burger-cross-btn').click()
+        cy.get('.bm-menu-wrap').should('have.attr', 'hidden')
     })
 })

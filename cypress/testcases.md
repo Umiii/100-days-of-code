@@ -19,7 +19,8 @@
 - Login - Add Item to Cart from product page - View Cart
 - Login - Add random items to cart & validate the count
 
+**Checkout Scenarios**
 
-
+**Footer Links Validations**
 
 Note: Implement an afterEach for Logout
