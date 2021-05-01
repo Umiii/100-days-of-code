@@ -31,4 +31,22 @@ describe('Link validation tests', () => {
         cy.get('#react-burger-cross-btn').click()
         cy.get('.bm-menu-wrap').should('have.attr', 'hidden')
     })
+    
+    it('Validate working \'reset app state\' link', () => {
+        let rand = new Set();
+        //Add unique random numbers to a set
+        while(rand.size<3){
+            rand.add(1 + Math.floor(Math.random() * 6));
+          }
+
+          rand.forEach((value) => {
+            cy.get('.inventory_list').find('.inventory_item').eq(value).contains('Add to cart', { timeout: 6000 }).click()
+          })
+
+       
+        cy.get('.shopping_cart_link').should('have.descendants', 'span')
+        cy.get('#react-burger-menu-btn', { timeout: 5000 }).click()
+        cy.get('#reset_sidebar_link').click()
+        cy.get('.shopping_cart_link').should('not.have.descendants','span')
+    })
 })

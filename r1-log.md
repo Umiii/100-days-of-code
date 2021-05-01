@@ -63,4 +63,7 @@ I completed the link validation test cases, its just 1 left
 Thoughts: Cypress assertions are so straightforward 
 
 ### Day 9: April 30th, 2021
+
+
+
 ### R1D2
