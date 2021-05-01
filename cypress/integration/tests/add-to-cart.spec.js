@@ -36,14 +36,35 @@ describe('Add to Cart Scenarios', () => {
 
     it('Add 3 random items to cart from homepage', () => {
        
-        for(let i=0; i<3; i++)
-        {
-            let rand = Math.floor(Math.random() * 6)
-            cy.get('.inventory_list').find('.inventory_item').eq(rand).contains('Add to cart', { timeout: 6000 }).click()
+        let rand = new Set();
+        //Add unique random numbers to a set
+        while(rand.size<3){
+            rand.add(Math.floor(Math.random() * 5));
         }
+        
+        //Click on 3 random Add to Cart buttons on the homepage
+        rand.forEach((value) => {
+            cy.get('.inventory_list').find('.inventory_item').eq(value).contains('Add to cart', { timeout: 6000 }).click()
+          })
         
         cy.get('#shopping_cart_container .shopping_cart_badge').should('have.text', '3')
         
+    })
+
+    it('Add items to cart & validate count', () => {
+        let rand = new Set();
+        let randomLength = Math.floor(Math.random() * 5)
+        //Add unique random numbers to a set
+        
+        while(rand.size<randomLength){
+            rand.add(Math.floor(Math.random() * 5));
+        }
+            
+        rand.forEach((value) => {
+            cy.get('.inventory_list').find('.inventory_item').eq(value).contains('Add to cart', { timeout: 6000 }).click()
+          })
+
+          cy.get('#shopping_cart_container .shopping_cart_badge').should('have.text', rand.size)
     })
     
 

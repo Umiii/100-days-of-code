@@ -49,4 +49,6 @@ describe('Link validation tests', () => {
         cy.get('#reset_sidebar_link').click()
         cy.get('.shopping_cart_link').should('not.have.descendants','span')
     })
+
+    
 })

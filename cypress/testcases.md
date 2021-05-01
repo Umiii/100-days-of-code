@@ -21,6 +21,7 @@
 
 **Checkout Scenarios**
 
+
 **Footer Links Validations**
 
-Note: Implement an afterEach for Logout
+

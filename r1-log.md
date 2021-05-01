@@ -62,8 +62,11 @@ I completed the link validation test cases, its just 1 left
 
 Thoughts: Cypress assertions are so straightforward 
 
-### Day 9: April 30th, 2021
+### Day 9: May 1st, 2021
+Improved on the random test to use unique random values only
+Completed link validation and cart count test
 
+Thoughts: Unique random test is more robust and flexible
 
 
 ### R1D2
