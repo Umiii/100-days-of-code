@@ -68,5 +68,7 @@ Completed link validation and cart count test
 
 Thoughts: Unique random test is more robust and flexible
 
+### Day 10: May 2nd, 2021
+
 
 ### R1D2

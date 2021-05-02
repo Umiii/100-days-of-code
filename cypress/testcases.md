@@ -20,8 +20,12 @@
 - Login - Add random items to cart & validate the count
 
 **Checkout Scenarios**
-
+- Validate working 'CONTINUE SHOPPING' button
+- Validate working 'Cancel' button
+- Login - Add random items to cart - Finish Checkout
 
 **Footer Links Validations**
-
+Validate working twitter footer link
+Validate working facebook footer link
+Validate working linkedin footer link
 
