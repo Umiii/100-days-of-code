@@ -69,6 +69,9 @@ Completed link validation and cart count test
 Thoughts: Unique random test is more robust and flexible
 
 ### Day 10: May 2nd, 2021
+Completed checkout scenarios
 
+Thoughts: Lots of copying and pasting, I have to make my code DRY
 
+### Day 11: May 3rd, 2021
 ### R1D2
